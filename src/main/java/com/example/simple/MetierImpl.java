@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class MetierImpl implements IMetier {
     IDao daoImp;
     public MetierImpl() throws FileNotFoundException, ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+        // dynamic instantiation
         Scanner scanner = new Scanner(new File("config.txt"));
         Class iDao = Class.forName(scanner.nextLine());
         daoImp = (IDao)iDao.getConstructor().newInstance();
