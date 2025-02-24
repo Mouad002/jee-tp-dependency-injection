@@ -1,4 +1,4 @@
-package com.example;
+package com.example.simple;
 
 import java.io.File;
 import java.io.FileNotFoundException;

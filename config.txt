@@ -1,1 +1,1 @@
-com.example.DaoImplV1
+com.example.simple.DaoImplV1

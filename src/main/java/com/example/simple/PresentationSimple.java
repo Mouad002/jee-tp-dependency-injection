@@ -1,4 +1,4 @@
-package com.example;
+package com.example.simple;
 
 import java.io.FileNotFoundException;
 import java.lang.reflect.InvocationTargetException;
